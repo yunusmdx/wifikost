@@ -44,7 +44,7 @@
 .btn {
   font-weight: 500;
   transition: 0.5s;
-  margin: 15px;
+  margin: 0px;
 }
 
 .btn.btn-primary {
