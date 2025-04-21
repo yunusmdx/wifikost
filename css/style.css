@@ -2,6 +2,7 @@
 :root {
   --primary: #0011ac;
   --secondary: #9b9b9b;
+  --thrid: #bababa;
   --light: #f5f5f5;
   --dark: #161616;
 }
@@ -208,8 +209,8 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: var(--secondary);
+  border-color: var(--secondary);
 }
 
 .header-carousel .owl-dots {
@@ -247,8 +248,8 @@
 }
 
 .header-carousel .owl-dot.active {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: var(--secondary);
+  border-color: var(--secondary);
 }
 
 .page-header {

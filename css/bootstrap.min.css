@@ -21,6 +21,7 @@
     --bs-primary: #0011ac;
     --bs-hover: #0050ac;
     --bs-secondary: #9B9B9B;
+    --bs-thrid:#bababa
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -378,12 +379,12 @@ select:disabled {
     display: none
 }
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
     -webkit-appearance: button;
-}
+} */
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -443,7 +444,7 @@ legend+* {
 
 [type="search"] {
     outline-offset: -2px;
-    -webkit-appearance: textfield;
+    /* -webkit-appearance: textfield; */
 }
 
 ::-webkit-search-decoration {
@@ -2496,7 +2497,7 @@ textarea.form-control-lg {
     background-size: contain;
     border: 1px solid rgba(0, 0, 0, 0.25);
     appearance: none;
-    color-adjust: exact;
+    /* color-adjust: exact; */
 }
 
 .form-check-input[type="checkbox"] {
@@ -2889,7 +2890,7 @@ textarea.form-control.is-valid {
 
 .was-validated .form-select:valid,
 .form-select.is-valid {
-    border-color: #198754
+    border-color: #191e87
 }
 
 .was-validated .form-select:valid:not([multiple]):not([size]),
@@ -3759,12 +3760,12 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #65B530;
+    color: var(--bs-primary);
     text-decoration: none
 }
 
 .btn-link:hover {
-    color: #519126
+    color: var(--bs-hover)
 }
 
 .btn-link:disabled,
@@ -4135,7 +4136,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #65B530
+    background-color: var(--bs-primary)
 }
 
 .dropdown-item.disabled,
@@ -8281,7 +8282,7 @@ fieldset:disabled .btn {
 }
 
 .text-kedua {
-    color: #26ccc3; !important
+    color: #26ccc3 !important
 }
 
 .text-primary {
@@ -8290,6 +8291,10 @@ fieldset:disabled .btn {
 
 .text-secondary {
     color: #9B9B9B !important
+}
+
+.text-thrid {
+    color: #d0d0d0 !important
 }
 
 .text-success {
