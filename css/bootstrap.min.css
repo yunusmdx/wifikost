@@ -12,8 +12,8 @@
     --bs-red: #dc3545;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
-    --bs-green: #198754;
-    --bs-teal: #20c997;
+    --bs-green: #196f87;
+    --bs-teal: #c9a420;
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
@@ -21,8 +21,8 @@
     --bs-primary: #0011ac;
     --bs-hover: #0050ac;
     --bs-secondary: #9B9B9B;
-    --bs-thrid:#bababa
-    --bs-success: #198754;
+    --bs-thrid:#bababa;
+    --bs-success: #194587;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -234,12 +234,12 @@ sup {
 }
 
 a {
-    color: #65B530;
+    color: #3051b5;
     text-decoration: none
 }
 
 a:hover {
-    color: #519126
+    color: #263891
 }
 
 a:not([href]):not([class]),
@@ -3073,7 +3073,7 @@ textarea.form-control.is-invalid {
 .btn-check:focus+.btn,
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(101, 181, 48, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(48, 72, 181, 0.25)
 }
 
 .btn:disabled,
