@@ -7,6 +7,14 @@
   --dark: #161616;
 }
 
+.contact,
+.layanan,
+.project,
+.harga,
+.tentang {
+  padding: 1rem 7% 1rem;
+}
+
 .fw-medium {
   font-weight: 500 !important;
 }
@@ -216,7 +224,7 @@
 .header-carousel .owl-dots {
   position: absolute;
   height: 45px;
-  bottom: 30px;
+  bottom: 45px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;

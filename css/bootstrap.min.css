@@ -19,7 +19,7 @@
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #0011ac;
-    --bs-hover: #0050ac;
+    --bs-hover: #0a67d1;
     --bs-secondary: #9B9B9B;
     --bs-thrid:#bababa;
     --bs-success: #194587;
@@ -3439,14 +3439,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #65B530;
-    border-color: #65B530
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
 }
 
 .btn-outline-primary:hover {
     color: #000;
-    background-color: #65B530;
-    border-color: #65B530
+    background-color: var(--bs-hover);
+    border-color: var(--bs-hover);
 }
 
 .btn-check:focus+.btn-outline-primary,
